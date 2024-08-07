@@ -1,5 +1,3 @@
-#!/bin/bash
-
 if [ ! -f plugins/Hibernate.jar ]; then
   mkdir -p plugins
   curl -Lo plugins/Hibernate.jar https://raw.githubusercontent.com/svoe2/quadly/main/Hibernate.jar
